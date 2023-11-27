@@ -1,0 +1,111 @@
+@import url(./reset.css);
+
+body {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  background-color: rgb(30, 35, 35);
+  color: #ede6e6;
+}
+
+.container {
+    width: max(100% - 40%, 1080px);
+    margin-inline: auto;
+  }
+  
+  .project-name {
+    font-size: 25px;
+    color: #ede6e6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-container {
+    height: 380px;
+    padding: 1rem;
+  }
+  
+  .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .input-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-container , input, .contact-counter, .new-contact {
+    border-radius: 7px;
+  }
+
+  .new-contact, input[type="button"]{
+    background-color: #328897;
+  }
+  
+  input {
+    height: 5rem;
+    padding: 0 10px;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    background-color: #3a3a3a;
+    color: #ede6e6;
+  }
+  
+  .adding-button {
+    width: 200px;
+    text-align: center;
+    color: #ede6e6;
+  }
+  
+  input + input {
+    margin-left: 10px;
+  }
+  
+  .new-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-counter {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ede6e6;
+    background-color: #973288;
+    padding: 10px;
+    font-size: 17px;
+  }
+
+  .contact-counter-container {
+    display: inline-block;
+  }
+
+  .contact-counter-div {
+    text-align: right;
+  } 
+
+  .contact-counter-div, .contact-container{
+    margin-top: 20px;
+  }
+  
+  .template {
+    font-size: 20px;
+  }
+
+  .feedback-section {
+    text-align: center;
+    color: rgb(229, 38, 38);
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
