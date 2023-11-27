@@ -1,6 +1,8 @@
 # contacts-list
 
 Hello. This is my project of contact creation list based on object oriented JavaScript.
+![image](https://github.com/MaksimDimov/contacts-list/assets/144286311/4c10f225-044e-4d0d-b07e-891394882547)
+
 
 ## What can it do?
 
